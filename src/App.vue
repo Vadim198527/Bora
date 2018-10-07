@@ -52,6 +52,7 @@
     }
 
     #content-wrapper {
+        font-family: Arial, Helvetica, FreeSans, "Liberation Sans";
         display: flex;
         justify-content: center;
     }
@@ -86,10 +87,11 @@
         .header-news {
             width: 100%;
             font-weight: bold;
-            font-size: 12px;
+            font-size: 13px;
             padding-left: 10px;
             background-color: #F1F1F1;
             margin-bottom: 10px;
+            color: #1f1f1f;
             border-bottom: 1px solid #D3D3D4;
             text-transform: uppercase;
             line-height: 42px;
@@ -103,12 +105,13 @@
         .link-news {
             background-color: #fff;
             padding: 20px 0 30px 0;
-            font-size: 9px;
+            font-size: 10px;
             text-transform: uppercase;
         }
             .link-news a {
                 padding: 0 10px 0 20px;
                 font-weight: bold;
+                color: #1f1f1f;
             }
 
 
