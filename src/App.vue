@@ -8,7 +8,10 @@
                     <div id="page-wrapper">
                         <div id="news-left">
                             <div class="header-news">новые сериалы</div>
-                            <div class="serial"></div>
+                            <div class="serial">
+                                <img src="//static.lostfilm.tv/Images/386/Posters/icon.jpg" width="40" height="40">
+                                <div>Маньяк <br> <span>Maniac</span></div>
+                            </div>
                             <div class="link-news">
                                 <a>все новые сериалы</a>
                             </div>
@@ -81,9 +84,33 @@
 
     #news-left {
         width: 240px;
-        background-color: aquamarine;
         margin-right: 5px;
     }
+
+        .serial {
+            display: flex;
+            font-size: 13px;
+            line-height: 16px;
+            color: #272727;
+            background-color: #fff;
+            padding: 15px 10px 15px 0px;
+        }
+
+            .serial:hover {
+                background-color: #F1F1F1;
+                cursor: pointer;
+            }
+
+            .serial img {
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .serial span {
+                color: #A6ACB4;
+                font-size: 11px;
+            }
 
         .header-news {
             width: 100%;
@@ -99,10 +126,6 @@
             box-sizing: border-box;
         }
 
-        .serial {
-            height: 60px;
-        }
-
         .link-news {
             background-color: #fff;
             padding: 20px 0 30px 0;
@@ -115,6 +138,10 @@
                 color: #1f1f1f;
             }
 
+                .link-news a:hover {
+                    text-decoration: underline;
+                }
+
 
     #main-page {
         width: 470px;
@@ -123,7 +150,6 @@
 
     #section2 {
         width: 240px;
-        /*background-color: aquamarine;*/
         margin-left: 5px;
         margin-top: 35px;
     }
