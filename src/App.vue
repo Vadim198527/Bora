@@ -7,10 +7,12 @@
                     </nav>
                     <div id="page-wrapper">
                         <div id="news-left">
-                            <div class="header-news">новые сериалы</div>
-                            <div class="serial">
-                                <img src="//static.lostfilm.tv/Images/386/Posters/icon.jpg" width="40" height="40">
-                                <div>Маньяк <br> <span>Maniac</span></div>
+                                <div class="header-news">новые сериалы</div>
+                            <div class="news-wrapper">
+                                <div class="serial">
+                                    <img src="//static.lostfilm.tv/Images/386/Posters/icon.jpg" width="40" height="40">
+                                    <div>Маньяк <br> <span>Maniac</span></div>
+                                </div>
                             </div>
                             <div class="link-news">
                                 <a>все новые сериалы</a>
@@ -88,13 +90,18 @@
         margin-right: 5px;
     }
 
+    .news-wrapper {
+        padding-top: 10px;
+        background-color: #fff;
+    }
+
         .serial {
             display: flex;
             font-size: 13px;
             line-height: 16px;
             color: #272727;
             background-color: #fff;
-            padding: 15px 30px 0px 0px;
+            padding: 15px 10px 15px 0px;
         }
 
             .serial:hover {
