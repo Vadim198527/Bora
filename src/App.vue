@@ -1,7 +1,8 @@
 <template>
     <div id="app">
         <img alt="Vue logo" src="./assets/logo.png">
-        <h1>Bora spilsa</h1>
+        <h1>Luda</h1>
+        <div>Anus</div>
     </div>
 </template>
 
