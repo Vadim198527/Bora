@@ -7,10 +7,10 @@
                     </nav>
                     <div id="page-wrapper">
                         <div id="news-left">
-                            <div class="header-news"></div>
+                            <div class="header-news">новые сериалы</div>
                             <div class="serial"></div>
                             <div class="link-news">
-                                <a></a>
+                                <a>все новые сериалы</a>
                             </div>
                         </div>
                         <div id="main-page"></div>
@@ -80,15 +80,20 @@
     #news-left {
         width: 240px;
         background-color: aquamarine;
-        height: 700px;
         margin-right: 5px;
     }
 
         .header-news {
             width: 100%;
-            height: 42px;
-            background-color: brown;
+            font-weight: bold;
+            font-size: 12px;
+            padding-left: 10px;
+            background-color: #F1F1F1;
             margin-bottom: 10px;
+            border-bottom: 1px solid #D3D3D4;
+            text-transform: uppercase;
+            line-height: 42px;
+            box-sizing: border-box;
         }
 
         .serial {
@@ -96,12 +101,17 @@
         }
 
         .link-news {
-            background-color: brown;
+            background-color: #fff;
             padding: 20px 0 30px 0;
+            font-size: 9px;
+            text-transform: uppercase;
         }
+            .link-news a {
+                padding: 0 10px 0 20px;
+            }
+
 
     #main-page {
-        height: 700px;
         width: 470px;
         background-color: aquamarine;
     }
