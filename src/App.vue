@@ -97,16 +97,21 @@
 
         .serial {
             display: flex;
+            align-items: center;
             font-size: 13px;
             line-height: 16px;
             color: #272727;
             background-color: #fff;
-            padding: 15px 10px 15px 0px;
+            padding: 0;
         }
 
             .serial:hover {
                 background-color: #F1F1F1;
                 cursor: pointer;
+            }
+
+            .serial div {
+                padding: 15px 0 15px 0
             }
 
             .serial img {
