@@ -6,7 +6,13 @@
                     <nav id="navigation">
                     </nav>
                     <div id="page-wrapper">
-                        <div id="news-left"></div>
+                        <div id="news-left">
+                            <div class="header-news"></div>
+                            <div class="serial"></div>
+                            <div class="link-news">
+                                <a></a>
+                            </div>
+                        </div>
                         <div id="main-page"></div>
                     </div>
                 </section>
@@ -77,6 +83,22 @@
         height: 700px;
         margin-right: 5px;
     }
+
+        .header-news {
+            width: 100%;
+            height: 42px;
+            background-color: brown;
+            margin-bottom: 10px;
+        }
+
+        .serial {
+            height: 60px;
+        }
+
+        .link-news {
+            background-color: brown;
+            padding: 20px 0 30px 0;
+        }
 
     #main-page {
         height: 700px;
