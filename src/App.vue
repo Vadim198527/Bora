@@ -48,7 +48,8 @@
 <style scoped>
 
     #root {
-        background-color: gray;
+        background: url('http://static.lostfilm.tv/ebllbe/d/9/d965e37db9008bf52d3fb5c7576c1db4.jpg') black no-repeat top center;
+
         margin: -8px;
         width: 100%;
         padding-top: 300px;
