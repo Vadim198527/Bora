@@ -65,6 +65,7 @@
 
     #page-wrapper {
         display: flex;
+        align-items: flex-start;
         margin-top: 5px;
     }
 
