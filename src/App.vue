@@ -108,6 +108,7 @@
         }
             .link-news a {
                 padding: 0 10px 0 20px;
+                font-weight: bold;
             }
 
 
