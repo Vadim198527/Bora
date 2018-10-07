@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #root {
+            background-color: gray;
+            margin: 0;
+            padding: 0;
+        }
+        #content-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-top: 300px;
+        }
+        #content {
+            display: flex;
+            height: 700px;
+            min-width: 960px;
+        }
+
+        #page-wrapper {
+            display: flex;
+            margin-top: 5px;
+        }
+
+        #section1 {
+            width: 710px;
+        }
+            #navigation {
+                width: 710px;
+                height: 30px;
+                background-color: aquamarine;
+            }
+            #news {
+                width: 240px;
+                background-color: aquamarine;
+                height: 700px;
+                margin-right: 5px;
+            }
+            #main-page {
+                height: 700px;
+                width: 470px;
+                background-color: aquamarine;
+            }
+
+
+        #section2 {
+            width: 240px;
+            background-color: aquamarine;
+            margin-left: 5px;
+            margin-top: 35px;
+        }
+
+
+
+
+    </style>
+</head>
+<body id="root">
+    <div id="content-wrapper">
+        <main id="content">
+            <section id="section1">
+                <nav id="navigation">
+                </nav>
+                <div id="page-wrapper">
+                    <div id="news"></div>
+                    <div id="main-page"></div>
+                </div>
+            </section>
+            <section id="section2">
+
+            </section>
+        </main>
+    </div>
+</body>
+</html>
