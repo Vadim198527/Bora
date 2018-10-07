@@ -93,7 +93,7 @@
             line-height: 16px;
             color: #272727;
             background-color: #fff;
-            padding: 15px 10px 15px 0px;
+            padding: 15px 30px 0px 0px;
         }
 
             .serial:hover {
@@ -118,13 +118,14 @@
             font-size: 13px;
             padding-left: 10px;
             background-color: #F1F1F1;
-            margin-bottom: 10px;
+            /*margin-bottom: 10px;*/
             color: #1f1f1f;
             border-bottom: 1px solid #D3D3D4;
             text-transform: uppercase;
             line-height: 42px;
             box-sizing: border-box;
         }
+
 
         .link-news {
             background-color: #fff;
